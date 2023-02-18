@@ -1,0 +1,70 @@
+               /* navbar of home page */
+               .main{
+                background-color: black;
+                color: white;
+                display: flex;
+                justify-content: space-around;
+                border-bottom: 1px solid blue;
+            
+            }
+            .main img{
+              
+                width: 5%; 
+            }
+            
+            .main li{
+                display: inline;
+                list-style: none;
+                padding: 1px;
+            
+            }
+            .main a{
+                text-decoration: none;
+                color: aliceblue;
+                padding: auto;
+            }
+                          /* main display home page */
+            
+            .bottomain{
+                text-align: center;
+                background-color: gray;
+                padding-top:5% ;
+                width: 80%;
+                margin: auto;
+            }
+                      /* media querry fo rthe home page */
+            @media only screen and (max-width:600px )
+            {
+                .main{
+                    text-align: left;
+                    background-color: black;
+                    color: white;
+                    display: block;
+                    border-bottom: 1px solid blue;
+            
+                }
+                .main img{
+                  
+                    width: 20%; 
+                    padding: 3%;
+                }
+                
+                .main li{
+                    display: block;
+                    list-style: none;
+                    padding: 1px;
+                
+                }
+                .main a{
+                    text-decoration: none;
+                    color: aliceblue;
+                }
+                .bottomain{
+                    text-align: center;
+                    background-color: gray;
+                    padding-top:5% ;
+                    width: 100%;
+                    margin: auto;
+                }
+            }
+                            
